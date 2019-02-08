@@ -1,0 +1,53 @@
+/*
+@font-face {
+	font-family: 'segoe ui';
+	src: URL('assets/segoeui.ttf') format('truetype');
+}
+*/
+
+@font-face {
+	font-family: 'industry';
+	src: URL('assets/industryt.ttf') format('truetype');
+}
+
+body {
+	font-family: 'industry';
+}
+
+button {
+	background-color: maroon;
+	border: none;
+	color: white;
+	padding: 10px 32px;
+	margin: 0px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+}
+
+button:hover {
+	box-shadow: 0 0 5px 3px lightgrey;
+}
+
+#menubar {
+	box-shadow: 0 0 5px 3px grey;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	margin: auto;
+	padding: 20px;
+	display: inline-block;
+}
+
+#slideshow {
+	height: 100vh;
+	margin: auto;
+	display: inline-block;
+}
+
+#footer {
+	
+}
